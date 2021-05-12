@@ -1,0 +1,1 @@
+CREATE DATABASE db_vehicules ENCODING = 'UTF8';

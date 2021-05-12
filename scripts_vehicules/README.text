@@ -1,0 +1,4 @@
+# create database db_vehicules
+psql -U postgres -d postgres -f create_db_vehicules.sql
+# instal content of database in the new database
+psql -U postgres -d db_vehicules -f user_schema_ddl_data_vehicules.sql
